@@ -1005,12 +1005,15 @@ p {
   height: 5px;
   border-radius: 5px;
   background-color: #754ef9;
-  -webkit-transition: all 1.5s ease-out 0s;
-  -moz-transition: all 1.5s ease-out 0s;
-  -ms-transition: all 1.5s ease-out 0s;
-  -o-transition: all 1.5s ease-out 0s;
-  transition: all 1.5s ease-out 0s;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
   width: 0;
+}
+.about-skills .skill-item .skill-bar .bar-inner .progress-line-reverse {
+  right: 0;
 }
 
 /*===========================
@@ -1032,6 +1035,22 @@ p {
 /*===========================
         5. PROJECTS css 
 ===========================*/
+.projects-area {
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .projects-area {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .projects-area {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+}
 
 .single-service {
   background-color: #fff;
