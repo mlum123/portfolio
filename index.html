@@ -77,9 +77,6 @@
                     <li class="nav-item">
                       <a class="page-scroll" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
                   </ul>
                 </div>
                 <!-- navbar collapse -->
@@ -194,6 +191,11 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="about-content mt-50">
+              <div class="bar">
+                <div class="bar-inner">
+                  <div class="bar progress-line" data-width="100"></div>
+                </div>
+              </div>
               <h5 class="about-title">about me</h5>
               <li>1.5 years @ <span class="bold">stripe</span></li>
               <li>
@@ -242,11 +244,6 @@
             <div class="about-skills pt-25">
               <div class="skill-item mt-25">
                 <div class="skill-header">
-                  <div class="skill-bar">
-                    <div class="bar-inner">
-                      <div class="bar progress-line" data-width="100"></div>
-                    </div>
-                  </div>
                   <div class="skill-title">
                     <span class="bold">programming languages</span>
                   </div>
@@ -285,7 +282,7 @@
                   </div>
                   <h6 class="skill-description">French, Chinese, English</h6>
                 </div>
-                <div class="skill-bar">
+                <div class="bar">
                   <div class="bar-inner">
                     <div
                       class="bar progress-line progress-line-reverse"
@@ -314,87 +311,77 @@
             <div class="section-title text-center pb-30">
               <h2 class="title">experience</h2>
             </div>
-            <!-- section title -->
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xl-10 offset-xl-1 col-lg-6">
-          <div class="about-skills pt-25">
-            <div class="skill-item mt-25">
-              <div class="skill-header">
-                <h6 class="skill-title">python</h6>
-                <div class="skill-percentage">
-                  <div class="count-box counted">
-                    <span class="counter">80</span>
+          <div class="experience-section col pt-25">
+            <div class="experience-item mt-25">
+              <div class="row experience-header">
+                <h6 class="experience-date col-12 col-lg-4">
+                  aug 2023 - present</span>
+                </h6>
+                <div class="experience-title-and-body col-12 col-lg-8">
+                  <h6 class="experience-title">
+                    software engineer @ stripe
+                  </h6>
+                  <div class="bar">
+                    <div class="bar-inner">
+                      <div class="bar progress-line" data-width="100"></div>
+                    </div>
                   </div>
-                  %
-                </div>
-              </div>
-              <div class="skill-bar">
-                <div class="bar-inner">
-                  <div class="bar progress-line" data-width="80"></div>
+                  <div class="experience-body">
+                    <div class="sub-experience">
+                      <div class="row">
+                        <h6 class="col-12 col-lg-8"><a href="https://stripe.com/billing" target="_blank" rel="noopener noreferrer">stripe billing</a></h6>
+                        <h6 class="sub-experience-date col-12 col-lg-4">oct 2024 - present</h6>
+                      </div>
+                      <div class="experience-list">
+                        <p>
+                          Building key infrastructure to power Stripe Billing, including:
+                          <div>
+                            <li>Memcached-backed rate limiter to handle traffic spikes across API endpoints</li>
+                            <li>and observability for <a href="https://docs.stripe.com/billing/testing/test-clocks" target="_blank" rel="noopener noreferrer">test clocks</a> (used by 170k+ merchants to test integrations).</li>
+                          </div>
+                        </p>
+                        <p>
+                          Helped deliver <a href="https://docs.stripe.com/billing/scripts" target="_blank" rel="noopener noreferrer">Stripe Scripts</a> for Stripe Sessions 2025 by
+                          <div>
+                            <li>conducting load tests</li>
+                            <li>setting up synthetics,</li>
+                            <li>and implementing performance optimizations.</li>
+                          </div>
+                        </p>
+                        <p>
+                          Spearheaded reliability efforts for Stripe's Revenue and Finance Automation org.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="sub-experience">
+                      <div class="row">
+                        <h6 class="col-12 col-lg-8"><a href="https://stripe.com/revenue-recognition" target="_blank" rel="noopener noreferrer">stripe revenue recognition</a></h6>
+                        <h6 class="sub-experience-date col-12 col-lg-4">aug 2023 - oct 2024</h6>
+                      </div>
+                      <div class="experience-list">
+                        <p>
+                          Moonlit as an accountant while shipping
+                          <div>
+                            <li>support for <a href="https://stripe.com/blog/changelog#:~:text=You%20can%20now%20issue%20credit%20notes%20with%20negative%20line%20items%20on%20invoices.%20This%20allows%20you%20to%20properly%20allocate%20credit%20amounts%20across%20invoice%20line%20items%20for%20improved%20revenue%20recognition." target="_blank" rel="noopener noreferrer">credit notes with negative line items</a> (1750+ users)</li>
+                            <li>and Stripe Connectors for the <a href="https://docs.stripe.com/revenue-recognition/data-import/apple-app-store" target="_blank" rel="noopener noreferrer">Apple App Store</a> and <a href="https://docs.stripe.com/revenue-recognition/data-import/google-play" target="_blank" rel="noopener noreferrer">Google Play</a>.</li>
+                          </div>
+                        </p>
+                        <p>
+                          Stepped up to rebuild team post departure of 5 ICs, taking initiative to
+                          <div>
+                            <li>mentor new teammates</li>
+                            <li>and revamp internal docs, enabling 3 new ICs to ramp up in minimal time.</li>
+                          </div>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- skill item -->
-            <div class="skill-item mt-25">
-              <div class="skill-header">
-                <h6 class="skill-title">CSS</h6>
-                <div class="skill-percentage">
-                  <div class="count-box counted">
-                    <span class="counter">60</span>
-                  </div>
-                  %
-                </div>
-              </div>
-              <div class="skill-bar">
-                <div class="bar-inner">
-                  <div class="bar progress-line" data-width="60"></div>
-                </div>
-              </div>
-            </div>
-            <!-- skill item -->
-            <div class="skill-item mt-25">
-              <div class="skill-header">
-                <h6 class="skill-title">Photoshop</h6>
-                <div class="skill-percentage">
-                  <div class="count-box counted">
-                    <span class="counter">50</span>
-                  </div>
-                  %
-                </div>
-              </div>
-              <div class="skill-bar">
-                <div class="bar-inner">
-                  <div class="bar progress-line" data-width="50"></div>
-                </div>
-              </div>
-            </div>
-            <!-- skill item -->
-            <div class="skill-item mt-25">
-              <div class="skill-header">
-                <h6 class="skill-title">Sketch</h6>
-                <div class="skill-percentage">
-                  <div class="count-box counted">
-                    <span class="counter">90</span>
-                  </div>
-                  %
-                </div>
-              </div>
-              <div class="skill-bar">
-                <div class="bar-inner">
-                  <div class="bar progress-line" data-width="90"></div>
-                </div>
-              </div>
-            </div>
-            <!-- skill item -->
           </div>
-          <!-- about skills -->
-        </div>
-      </div>
-      <!-- row -->
     </section>
     <!--====== EXPERIENCE PART ENDS ======-->
 

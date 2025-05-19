@@ -130,6 +130,31 @@ p {
   font-weight: 600;
 }
 
+/*===== All Bar Style =====*/
+
+.bar .bar-inner {
+  margin: 15px 0;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  position: relative;
+}
+.bar .bar-inner .progress-line {
+  position: absolute;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #754ef9;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+  width: 0;
+}
+.bar .bar-inner .progress-line-reverse {
+  right: 0;
+}
+
 /*===== All Section Title Style =====*/
 .section-title .title {
   font-weight: 700;
@@ -990,35 +1015,14 @@ p {
   font-weight: 400;
   color: #8a8fa3;
 }
-.about-skills .skill-item .skill-bar {
-  margin: 15px 0;
-}
-.about-skills .skill-item .skill-bar .bar-inner {
-  height: 5px;
-  border-radius: 5px;
-  background-color: #d9d9d9;
-  position: relative;
-}
-.about-skills .skill-item .skill-bar .bar-inner .progress-line {
-  position: absolute;
-  top: 0;
-  height: 5px;
-  border-radius: 5px;
-  background-color: #754ef9;
-  -webkit-transition: all 1s ease-out 0s;
-  -moz-transition: all 1s ease-out 0s;
-  -ms-transition: all 1s ease-out 0s;
-  -o-transition: all 1s ease-out 0s;
-  transition: all 1s ease-out 0s;
-  width: 0;
-}
-.about-skills .skill-item .skill-bar .bar-inner .progress-line-reverse {
-  right: 0;
-}
 
 /*===========================
         4. EXPERIENCE css 
 ===========================*/
+.experience-area {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .experience-area {
     padding-top: 90px;
@@ -1030,6 +1034,40 @@ p {
     padding-top: 70px;
     padding-bottom: 80px;
   }
+}
+.experience-item {
+  padding: 25px;
+  background-color: #fff;
+  border: 1px solid #eceff8;
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  .experience-item {
+    padding: 15px;
+  }
+}
+.experience-item a {
+  color: #754ef9;
+}
+.experience-date {
+  right: 0;
+  color: #8a8fa3;
+}
+.sub-experience {
+  margin-bottom: 18px;
+}
+.sub-experience-date {
+  text-align: right;
+  color: #8a8fa3;
+}
+.experience-list {
+  margin-top: 10px;
+}
+.experience-list p {
+  color: #32333c;
+}
+.experience-list li {
+  color: #8a8fa3;
 }
 
 /*===========================
