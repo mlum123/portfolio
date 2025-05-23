@@ -1106,10 +1106,26 @@ p {
     padding: 15px;
   }
 }
-.project .project-icon i {
-  font-size: 60px;
+.project-header {
+  margin-bottom: 15px;
+}
+.project-title {
   color: #754ef9;
-  line-height: 56px;
+  font-size: 16px;
+  text-align: left;
+}
+.project-date {
+  color: #8a8fa3;
+}
+.project p {
+  color: #32333c;
+  text-align: left;
+  line-height: 24px;
+}
+.project-img {
+  margin-top: 15px;
+  border: 1px solid #eceff8;
+  border-radius: 5px;
 }
 .project .project-content {
   margin-top: 11px;
